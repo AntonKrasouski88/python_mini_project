@@ -36,7 +36,7 @@ def get_answer(arr):
         flag = check_answer()
         if not flag:
             break
-        
+
     print('Возвращайся если возникнут вопросы!')
 
 
