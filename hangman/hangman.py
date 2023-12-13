@@ -112,9 +112,6 @@ def check_repeated_letter (list_letter, letter):
 
    return flag
    
-
-
-
 def play (word):
    world_completion = '_' * len(word) # string, has symbols _ 
    guessed = False
@@ -122,7 +119,6 @@ def play (word):
    guessed_word = []
    tries = 6
    
-
    print("Let's play the guessing of words!")
    display_hangman(tries) # display the current state of the game with the initial number of permissible misses
    print(world_completion) # display the initial words
