@@ -31,3 +31,17 @@ hours = [6, 10, 15]
 for el in hours:
     distance = el * SPEED
     print(distance)
+
+
+# 6. Sales tax
+FEDERAL_TAX = 0.05
+REGIONAL_TAX = 0.025
+
+amount_purchases = int(input('Enter the amount of the purchases: '))
+amount_federal_tax = amount_purchases * FEDERAL_TAX
+amount_regional_tax = amount_purchases * REGIONAL_TAX
+full_cost_purchases = amount_purchases + amount_federal_tax + amount_regional_tax
+
+print(f'Стоиость покупок: {amount_purchases}')
+print(f'Федеальный налог: {amount_federal_tax}', f'Региональный налог: {amount_regional_tax}', sep='\n')
+print(f'Полная стоимость покупок: {full_cost_purchases:,.2f}')
