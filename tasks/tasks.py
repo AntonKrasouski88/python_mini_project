@@ -70,4 +70,4 @@ print(f'Total amount with tips and sales tax: {total_amount:,.2f}')
 degrees_celsius = int(input('Enter degrees Celsius: '))
 degrees_fahrenheit = (9 / 5) * degrees_celsius + 32
 
-print(f'{degrees_fahrenheit:.2f}F')
+print(f'{degrees_fahrenheit:.2f}F') 
