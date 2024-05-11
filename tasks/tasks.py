@@ -45,3 +45,10 @@ full_cost_purchases = amount_purchases + amount_federal_tax + amount_regional_ta
 print(f'Стоиость покупок: {amount_purchases}')
 print(f'Федеальный налог: {amount_federal_tax}', f'Региональный налог: {amount_regional_tax}', sep='\n')
 print(f'Полная стоимость покупок: {full_cost_purchases:,.2f}')
+
+# 7. Gasoline consumption
+distance = int(input('Enter the path traveled: '))
+spent_litres = int(input('Enter the amount of spent gasoline in liters: '))
+consumption = distance / spent_litres
+
+print(f'Gasoline consumption per kilometer of the traveled path: {consumption:,.2f}')
