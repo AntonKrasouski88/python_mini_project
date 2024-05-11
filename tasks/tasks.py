@@ -63,3 +63,11 @@ cost_food = int(input('Enter the cost of food: '))
 total_amount = cost_food + cost_food * TIPS + cost_food * SALES_TAX
 
 print(f'Total amount with tips and sales tax: {total_amount:,.2f}')
+
+
+# 9. Temperature converting on a Celsius scale 
+# into a temperature along the pharyngeite scale
+degrees_celsius = int(input('Enter degrees Celsius: '))
+degrees_fahrenheit = (9 / 5) * degrees_celsius + 32
+
+print(f'{degrees_fahrenheit:.2f}F')
